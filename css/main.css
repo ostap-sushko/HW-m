@@ -2,7 +2,9 @@
     --logo-color: #000;
     --color-1: #ff0000;
     --footer-background: #2f303a;
-    --color-2: #f5ffad;
+    --color-2: #807f7f;
+    --accent-color: #2196f3;
+    --color-3: #c68686;
   }
 .container{
 width: 1200px;
@@ -22,9 +24,29 @@ font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
+display: flex;
+justify-content: center;
 }
 .header-span{
 color: var(--logo-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
+.header-lojo{
+  color: var(--accent-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+display: flex;
+justify-content: center;
+}
+.header-spon{
+  color: var(--logo-color);
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
@@ -47,16 +69,24 @@ letter-spacing: 0.78px;
 
 
 
-
 .development{
-    background-color: var(--color-2);
+
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
 }
+.development-tatle{
+  color: var(--text-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
 .development-text{
     color: var(--main-color);
-    font-size: 25px;
+    font-size: 27px;
     font-weight: 91;
     line-height: 1.36;
     letter-spacing: 2.64px;
@@ -68,4 +98,34 @@ letter-spacing: 0.78px;
 .foto{
   margin-left: auto;
   margin-right: auto;
+}
+
+
+
+
+
+
+.maturity{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.maturity-title{
+  color: var(--text-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
+.maturity-text{
+color: var(--main-color);
+font-size: 27px;
+font-weight: 91;
+line-height: 1.36;
+letter-spacing: 2.64px;
+margin-bottom: 30px;
+display: flex;
+justify-content: center;
 }
